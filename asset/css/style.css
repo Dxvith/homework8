@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 8.333333333333333%;
+  }
+  .col-2 {
+    width: 16.66666666666667%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33333333333333%;
+  }
+  .col-5 {
+    width: 41.66666666666667%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33333333333333%;
+  }
+  .col-8 {
+    width: 66.66666666666667%;
+  }
+  .col-9 {
+    width: 75% ;
+  }
+  .col-10 {
+    width: 83.33333333333333%;
+  }
+  .col-11 {
+    width: 91.66666666666667%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+
+  .item{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 200);
+  }
+
+  .product-1{
+    background-color: #ddd;
+    padding: 60px 0;
+  }
+
+  .product-1 .left{
+    height: 500px;
+    background-color: rgb(98, 161, 255);
+    position: relative;
+  }
+
+  .product-1 .right{
+    height: 500px;
+    background-color: rgb(255, 135, 126);
+  }
+
+  .product-1 .left .item{
+    position: absolute;
+    left: 500px;
+    top: 150px;
+  }
+
+  .product-2{
+    background-color: #ffffff;
+    padding: 70px 0;
+  }
+
+  .product-2 .left{
+    height: 500px;
+    background-color: #ffffff;
+    position: relative;
+  }
+
+  .product-2 .right{
+    height: 500px;
+    background-color:rgb(98, 161, 255);
+  }
+
+  .product-2 .left .item{
+    position: absolute;
+    left: 500px;
+    bottom: -45px;
+  }
+
+  .product-3{
+    background-color: #ddd;
+    padding: 60px 0;
+  }
+
+  .product-3 .left{
+    height: 500px;
+    background-color: rgb(98, 161, 255);
+    position: relative;
+  }
+
+  .product-3 .right{
+    height: 500px;
+    background-color: #ddd;
+  }
+
+  .product-3 .left .item{
+    position: absolute;
+    left: 500px;
+    top: 0;
+  }
+
+  .product-4{
+    background-color: #ffffff;
+    padding: 70px 0;
+  }
+
+  .product-4 .left{
+    height: 250px;
+    background-color: rgb(98, 161, 255);
+    position: relative;
+  }
+
+  .product-4 .right{
+    height: 250px;
+    background-color: rgb(255, 135, 126);
+  }
+
+  .product-4 .col-12{
+    height: 250px;
+    background-color: blue;
+  }
+
+  .product-4 .left .item{
+    position: absolute;
+    left: 500px;
+    top: 150px;
+  }
+
+
+
+  
